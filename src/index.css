@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your base theme settings */
+@layer base {
+    html[data-theme="default"] {
+        --color-primary1: #FFBE34;
+        --color-primary2: #4D8137;
+        --color-banner: #1F5F05;
+        --color-primary5: #2F6717;
+        --color-secondary1: #F4F4F4;
+        --color-heading: #1A2914;
+        --color-paragraph: #676F64;
+        --color-gradient1: #FFB629;
+        --color-gradient2: #FFDA56;
+        --color-gradient3: #FFD7A6;
+    }
+    html[data-theme="theme1"] {
+        --color-primary1: #FFBE34;
+        --color-primary2: #517143; 
+        --color-banner: #405B35;
+        --color-primary5: #455B3B; 
+        --color-secondary1: #F4F4F4;
+        --color-heading: #293025;
+        --color-paragraph: #676F64;
+        --color-gradient1: #FFB629;
+        --color-gradient2: #FFDA56;
+        --color-gradient3: #FFD7A6;
+    }
+    html[data-theme="theme2"] {
+        --color-primary1: #FFBE34;
+        --color-primary2: #C1E2BE;
+        --color-banner: #CAE9BE;
+        --color-primary5: #4D6F4A;
+        --color-secondary1: #F4F4F4;
+        --color-heading: #1A2914;
+        --color-paragraph: #676F64;
+        --color-gradient1: #FFB629;
+        --color-gradient2: #FFDA56;
+        --color-gradient3: #FFD7A6;
+    }
+}
+/* 
+@import "themes/theme1.css";
+@import "themes/theme2.css";
+
+ */
